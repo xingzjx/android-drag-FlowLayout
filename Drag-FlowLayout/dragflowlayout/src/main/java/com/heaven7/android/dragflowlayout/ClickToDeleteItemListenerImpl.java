@@ -58,7 +58,7 @@ public class ClickToDeleteItemListenerImpl implements DragFlowLayout.OnItemClick
         @Override
         public void run() {
             Object data = mParent.getDragAdapter().getData(mChild);
-            mParent.removeView(mChild);
+            // mParent.removeView(mChild);
             onDeleteSuccess(mParent, mChild, data);
         }
     }
