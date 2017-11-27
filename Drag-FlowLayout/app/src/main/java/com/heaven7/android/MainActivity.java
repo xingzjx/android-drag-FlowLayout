@@ -12,5 +12,8 @@ public class MainActivity extends AbsMainActivity {
     @Override
     protected void addDemos(List<ActivityInfo> list) {
         list.add(new ActivityInfo(DragFlowLayoutTest.class, "test Drag FlowLayout"));
+
+
+
     }
 }
