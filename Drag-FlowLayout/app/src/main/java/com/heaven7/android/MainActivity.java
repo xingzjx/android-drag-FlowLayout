@@ -13,7 +13,6 @@ public class MainActivity extends AbsMainActivity {
     protected void addDemos(List<ActivityInfo> list) {
         list.add(new ActivityInfo(DragFlowLayoutTest.class, "test Drag FlowLayout"));
 
-
-
+        // test
     }
 }
