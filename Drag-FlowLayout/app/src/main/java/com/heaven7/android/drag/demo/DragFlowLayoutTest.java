@@ -49,6 +49,7 @@ public class DragFlowLayoutTest extends BaseActivity {
                 //删除成功后的处理。
             }
         });
+        // adapter
         mDragflowLayout.setDragAdapter(new DragAdapter<TestBean>() {
             @Override
             public int getItemLayoutId() {

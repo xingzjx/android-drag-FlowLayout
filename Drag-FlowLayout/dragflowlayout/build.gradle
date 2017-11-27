@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.xingzjx'
+group='com.github.flowlayout'
 
 android {
     compileSdkVersion 23
